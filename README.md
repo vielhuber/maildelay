@@ -4,7 +4,7 @@
 
 this package sends delayed mails. to do this, you create special folders in your inbox (which specify the sending time) and save all mails, you want to delay, as drafts inside those folders.
 
-## installation
+## setup
 
 ### install packages
 
@@ -32,7 +32,6 @@ vi .env
 
 ### setup cronjob
 
-````sh
-php script.php
+```sh
+*/10 * * * * /usr/bin/php83 /var/www/maildelay/script.php 2>&1
 ```
-````
