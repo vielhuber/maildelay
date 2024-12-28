@@ -33,5 +33,5 @@ vi .env
 ### setup cronjob
 
 ```sh
-*/10 * * * * /usr/bin/php83 /var/www/maildelay/script.php 2>&1
+*/10 * * * * /path/to/maildelay/maildelay.sh 2>&1
 ```
