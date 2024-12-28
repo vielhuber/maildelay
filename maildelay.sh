@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 source "$PWD"/.env
-"$PHP_FOLDER" "$SCRIPT_FOLDER"/maildelay.php
+"$PHP_EXECUTABLE" "$PWD"/maildelay.php
