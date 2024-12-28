@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-/usr/bin/php83 ./maildelay.php
+source .env
+"$PHP_FOLDER" "$SCRIPT_FOLDER"/maildelay.php
