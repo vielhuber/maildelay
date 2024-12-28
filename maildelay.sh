@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-/usr/bin/php83 /maildelay/maildelay.php
+/usr/bin/php83 ./maildelay.php
