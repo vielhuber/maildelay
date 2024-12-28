@@ -58,12 +58,13 @@ class MailDelay
                 }
                 try {
                     $this->sendMail($preparedMail);
-                    echo 'Successfully sent mail #' . $preparedMail->id . '.' . '<br/>';
+                    echo 'Successfully sent mail #' . $preparedMail->id . '.' . PHP_EOL;
                 } catch (\Exception $e) {
-                    echo 'Error in sending mail #' . $preparedMail->id . ': ' . $e->getMessage() . '<br/>';
+                    echo 'Error in sending mail #' . $preparedMail->id . ': ' . $e->getMessage() . PHP_EOL;
                 }
             }
         }
+        echo 'All mails have been processed.' . PHP_EOL . 'JO';
     }
 
     private function prepareMailData(int $id, string $folder): object
