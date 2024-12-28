@@ -2,7 +2,7 @@
 
 ## motivation
 
-this package sends delayed mails. to do this, you create special folders in your inbox (which specify the sending time) and save all mails, you want to delay, as drafts inside those folders.
+this package sends delayed mails, because e.g. outlooks delay email feature is not feasible, since outlook must be running. to do this, you create special folders in your inbox (which specify the sending time) and save all mails you want to delay as drafts inside those folders.
 
 ## setup
 
@@ -19,7 +19,7 @@ cp .env.example .env
 vi .env
 ```
 
-### create folder structure
+### create mail folder structure
 
 ```
   ...
