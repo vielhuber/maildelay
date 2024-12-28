@@ -64,7 +64,7 @@ class MailDelay
                 }
             }
         }
-        echo 'All mails have been processed.' . PHP_EOL . 'JO';
+        echo 'All mails have been processed.' . PHP_EOL;
     }
 
     private function prepareMailData(int $id, string $folder): object
