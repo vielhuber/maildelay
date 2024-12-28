@@ -1,0 +1,6 @@
+/node_modules
+/vendor
+.env
+.prettierrc
+composer.lock
+package-lock.json
