@@ -6,20 +6,20 @@ this package sends delayed mails. to do this, you create special folders in your
 
 ## installation
 
-install packages
+### install packages
 
 ```sh
 composer install
 ```
 
-fill out environment variables
+### fill out environment variables
 
 ```sh
 cp .env.example .env
 vi .env
 ```
 
-create folder structure
+### create folder structure
 
 ```
   ...
@@ -30,10 +30,9 @@ create folder structure
   ...
 ```
 
-setup cronjob
+### setup cronjob
 
 ````sh
 php script.php
 ```
-
 ````
