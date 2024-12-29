@@ -128,6 +128,8 @@ class MailDelay
     {
         $timeToSend = null;
         if ($delayTime === 'THIS NIGHT') {
+            $timeToSend = date('Y-m-d', strtotime($date)) . ' 18:00:00';
+        } elseif ($delayTime === 'THIS NIGHT') {
             $timeToSend =
                 date('Y-m-d', strtotime($date . (date('H', strtotime($date)) >= 4 ? ' + 1 day' : ''))) . ' 03:42:00';
         } elseif ($delayTime === 'NEXT MORNING') {

@@ -24,6 +24,7 @@ vi .env
 ```
   ...
   - DELAY
+    - THIS EVENING
     - THIS NIGHT
     - NEXT MORNING
     - NEXT WEEK
