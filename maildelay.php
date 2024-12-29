@@ -127,7 +127,7 @@ class MailDelay
     private function determineTimeToSend(string $delayTime, string $date): ?string
     {
         $timeToSend = null;
-        if ($delayTime === 'THIS NIGHT') {
+        if ($delayTime === 'THIS EVENING') {
             $timeToSend = date('Y-m-d', strtotime($date)) . ' 18:00:00';
         } elseif ($delayTime === 'THIS NIGHT') {
             $timeToSend =
